@@ -7,5 +7,4 @@ public class ReceptorDeFlores implements EntregaDeFloresObserver {
         System.out.println("Recebendo as flores...");
         System.out.println("Muito obrigado! São lindas!");
     }
-
 }

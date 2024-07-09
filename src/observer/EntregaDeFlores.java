@@ -8,7 +8,8 @@ public class EntregaDeFlores {
 
         entregador.addEntregaDeFloresObserver(receptor);
 
-        entregador.start();
+        while (true) {
+            entregador.simularEntrega();
+        }
     }
-
 }
